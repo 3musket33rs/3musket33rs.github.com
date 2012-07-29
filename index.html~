@@ -6,51 +6,17 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.js"></script>
-<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.js"></script>
 </head>
 <body>
-
-
+<!-- Home -->
 <div data-role="page" id="page1">
     <div data-theme="a" data-role="header">
         <h3>
             3.musket33rs
         </h3>
     </div>
-    <div data-role="content" style="padding: 15px">
-        <ul data-role="listview" data-divider-theme="b" data-inset="true">
-            <li data-role="list-divider" role="heading">
-                Les Gascons
-            </li>
-            <li data-theme="c">
-				<a href="#Aramis" data-rel="dialog" data-transition="pop">
-					<img src="resources/img/sebastien.png" />
-					<h3>Aramis</h3>
-				</a>
-                <a href="#Aramis" data-rel="dialog" data-transition="pop">
-                    Aramis
-                </a>
-            <li/>
-            <li data-theme="c">
-				<a href="#Athos" data-rel="dialog" data-position-to="window" data-inline="true" data-transition="pop">
-					<img src="resources/img/corinne.png" />
-					<h3>Athos</h3>
-				</a>
-					<!--a href="https://twitter.com/corinnekrych" class="twitter-follow-button" data-rel="dialog" data-position-to="window" data-inline="true" data-transition="pop" data-show-count="false" data-size="large" data-show-screen-name="false">
-						Follow @corinnekrych
-					</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script-->
-            <li/>
-            <li data-theme="c">
-					<a href="#Porthos" data-rel="dialog" data-transition="pop">
-						<img src="resources/img/fabrice.png" />
-						<h3>Porthos</h3>
-					</a>
-                <a href="#Porthos" data-rel="dialog" data-transition="pop">
-                    Porthos
-                </a>
-            <li/>
-        </ul>
-        <ul data-role="listview" data-divider-theme="b" data-inset="true">
+    <div data-role="content">
+        <ul data-role="listview" data-inset="true">
             <li data-role="list-divider" role="heading">
                 Projects
             </li>
@@ -65,55 +31,122 @@
                 </a>
             <li/>
         </ul>
-    </div>	
+        <ul data-role="listview" data-inset="true">
+            <li data-role="list-divider" role="heading">
+                Members
+            </li>
+            <li>
+            
+        <a style="display: inline-block;" href="#Aramis" data-rel="dialog" data-transition="pop">
+          <img src="resources/img/sebastien.png" />
+          <h3 >Aramis</h3>
+        </a>
+         <a href="https://twitter.com/sebi2706">          
+          <img src="resources/img/twitter.png" />
+         </a>
+         <a href="https://github.com/fabricematrat">
+          <img src="resources/img/github-icon.png" />
+        </a>
+                <a href="#Aramis" data-rel="dialog" data-transition="pop">
+                    Aramis
+                </a>
+            <li/>
+            <li>
+        <a style="display: inline-block;" href="#Athos" data-rel="dialog" data-transition="pop">
+          <img src="resources/img/corinne.png" />
+          <h3>Athos</h3>
+        </a>
+         <a href="https://twitter.com/corinnekrych">          
+          <img src="resources/img/twitter.png" />
+         </a>
+         <a href="https://github.com/corinnekrych">
+          <img src="resources/img/github-icon.png" />
+        </a>
+          <a href="#Athos" data-rel="dialog" data-transition="pop">
+            Athos
+          </a>
+            <li/>
+            <li>
+          <a style="display: inline-block;" href="#Porthos" data-rel="dialog" data-transition="pop">
+            <img src="resources/img/fabrice.png" />
+            <h3>Porthos</h3>
+          </a>
+         <a href="https://twitter.com/fabricematrat">          
+          <img src="resources/img/twitter.png" />
+         </a>
+         <a href="https://github.com/fabricematrat">
+          <img src="resources/img/github-icon.png" />
+        </a>
+                <a href="#Porthos" data-rel="dialog" data-transition="pop">
+                    Porthos
+                </a>
+            <li/>
+        </ul>
+    </div>  
     <div data-theme="a" data-role="footer" data-position="fixed">
-        <h3>
-            Powered by us (th33musk3t33rs@gmail.com)
-        </h3>
+        <a class="ui-btn-left" rel="external" href="https://github.com/3musket33rs">
+          <img src="resources/img/github-icon.png" />
+        </a>
+        <h1>Powered by us (<a href="mailto:th33musk3t33rs@gmail.com">th33musk3t33rs@gmail.com</a>)</h1>        
+         <a class="ui-btn-right" rel="external" href="https://twitter.com/3musket33rs">          
+          <img src="resources/img/twitter.png" />
+         </a>
     </div>
 </div>
 
 
 <div data-role="page" id="Aramis">
-	<div data-role="header" data-theme="b">
-		<h1>Aramis</h1>
-	</div>
-	<div data-role="content" data-theme="d">	
-		<h2></h2>
-		<p></p>	
-	</div>
-	<div data-role="footer">
-		<h4>Grails Addict</h4>
-	</div>
-</div>	
+  <div data-role="header" data-theme="b">
+    <h1>Aramis</h1>
+  </div><!-- /header -->
+  <div data-role="content" data-theme="d">  
+    <h2>Mobile Web Apps are the future !!</h2>
+    <p>Local Storage, Synchronization, Geolocation, PhoneGap : Just ask or read</p>
+    <p><a href="http://www.amazon.com/Pro-Android-Web-Apps-Professionals/dp/1430232765">Develop for Android using HTML5, CSS3 & JavaScript</a> </p> 
+  </div><!-- /content -->
+  <div data-role="footer">
+    <h4>Grails Addict</h4>
+  </div><!-- /footer -->
+</div><!-- /page popup -->  
 <div data-role="page" id="Athos">
-	<div data-role="header" data-theme="b">
-		<h1>Athos</h1>
-	</div>
-	<div data-role="content" data-theme="d">	
-		<h2>Senior IT consultant, worked in Paris, London, Toronto and now in French Riviera. Freelance since 1999, I've traveled from C++ to Java, J2EE (, Spring, Struts MVC, JSP, web2.0, Grails and naturally made my path to Groovy.
-
-Agile developer since 2002, I think code is craft and collaboration is key to success.
-I like code that is human readable and self explained-keep it simple
-I'm Test-Driven development practitioner
-I like documentation when it's useful – wiki addict, I admit-
-I love chatting the latest tech trends at coffee break: female geek – what do you expect-
-My motto is: there is always room to improvement, if you can't make it right first shot, refactor it.</h2>
-		<p></p>	
-	</div>
-	<div data-role="footer">
-		<h4>Grails Addict</h4>
-	</div>
-</div>	
+  <div data-role="header" data-theme="b">
+    <h1>Athos</h1>
+  </div><!-- /header -->
+  <div data-role="content" data-theme="d">  
+    <h2>Senior IT consultant in Paris, London, Toronto and now in French Riviera</h2> 
+    <p>Freelance since 1999, I've traveled from C++ to Java, J2EE, Spring, Struts MVC, JSP, web2.0, Grails and naturally made my path to Groovy.
+<ul>
+<li>Agile developer since 2002 </li>
+<li>I think code is craft and collaboration is key to success.</li>
+<li>I like code that is human readable and self explained-keep it simple</li>
+<li>I'm Test-Driven development practitioner</li>
+<li>I like documentation when it's useful -wiki addict, I admit-</li>
+<li>I love chatting the latest tech trends at coffee break: female geek -what do you expect-</li>
+<li>My motto is: there is always room to improvement, if you can't make it right first shot, refactor it.</li>
+</ul>
+    </p> 
+  </div><!-- /content -->
+  <div data-role="footer">
+    <h4>Grails Addict</h4>
+  </div><!-- /footer -->
+</div><!-- /page popup -->  
 <div data-role="page" id="Porthos">
-	<div data-role="header" data-theme="b">
-		<h1>Porthos</h1>
-	</div>
-	<div data-role="content" data-theme="d">	
-		<h2>Some text and photos</h2>
-		<p></p>	
-	</div>
-	<div data-role="footer">
-		<h4>Obscessed with asynchronous behavior</h4>
-	</div>
-</div>
+  <div data-role="header" data-theme="b">
+    <h1>Porthos</h1>
+  </div><!-- /header -->
+  <div data-role="content" data-theme="d">  
+    <h2>Why should I wait ?</h2>
+    <p>Architect in bank, multimedia, insurance, travel industry</p>
+<ul>
+<li>15 Years of experience </li>
+<li>Java J2EE, DB </li>
+<li>XP Developers </li>
+<li>Mr Clean (code)</li>
+<li>Grails Fan</li>
+<li>Hybrid mobile web app</li>
+</ul>
+  </div><!-- /content -->
+  <div data-role="footer">
+    <h4>Obscessed with asynchronous behavior</h4>
+  </div><!-- /footer -->
+</div><!-- /page popup -->

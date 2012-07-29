@@ -6,15 +6,12 @@
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.min.css" />
 <script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.js"></script>
+<script src="http://code.jquery.com/mobile/1.1.1/jquery.mobile-1.1.1.js"></script>
 </head>
 <body>
-<div>
-<a href="https://twitter.com/corinnekrych" class="twitter-follow-button" data-show-count="false" data-size="large" data-show-screen-name="false">Follow @corinnekrych</a>
-<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-</div>
 
 
-<!-- <div data-role="page" id="page1">
+<div data-role="page" id="page1">
     <div data-theme="a" data-role="header">
         <h3>
             3.musket33rs
@@ -39,9 +36,9 @@
 					<img src="resources/img/corinne.png" />
 					<h3>Athos</h3>
 				</a>
-					<a href="#Athos" data-rel="dialog" data-transition="pop">
-						Athos
-					</a>
+					<!--a href="https://twitter.com/corinnekrych" class="twitter-follow-button" data-rel="dialog" data-position-to="window" data-inline="true" data-transition="pop" data-show-count="false" data-size="large" data-show-screen-name="false">
+						Follow @corinnekrych
+					</a><script type="text/javascript" src="//platform.twitter.com/widgets.js"></script-->
             <li/>
             <li data-theme="c">
 					<a href="#Porthos" data-rel="dialog" data-transition="pop">
@@ -118,5 +115,5 @@ My motto is: there is always room to improvement, if you can't make it right fir
 	</div>
 	<div data-role="footer">
 		<h4>Obscessed with asynchronous behavior</h4>
-	</div> -->
+	</div>
 </div>
